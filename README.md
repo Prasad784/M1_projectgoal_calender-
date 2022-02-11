@@ -12,3 +12,7 @@
 ![code quality](https://api.codiga.io/project/31122/score/svg)
 
 ![code grade](https://api.codiga.io/project/31122/status/svg)
+
+<a href="https://app.codiga.io/public/user/github/Prasad784">
+   <img src="https://api.codiga.io/public/badge/user/github/Prasad784?style=light" alt="codiga badge" />
+</a>
