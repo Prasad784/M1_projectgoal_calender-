@@ -1,12 +1,12 @@
-# Update  by # Test Plan and Test Ouput
-
-UPDATE user set ='*HLT ID*' WHERE # Test Plan and Test Ouput='*Test ID*';
-UPDATE user set ='-----' WHERE # Test Plan and Test Ouput='-------------';
-UPDATE user set ='H_01' WHERE # Test Plan and Test Ouput='T_01';
-UPDATE user set ='H_01' WHERE # Test Plan and Test Ouput='T_02';
-UPDATE user set ='H_02' WHERE # Test Plan and Test Ouput='T_03';
-UPDATE user set ='H_02' WHERE # Test Plan and Test Ouput='T_04';
-UPDATE user set ='H_03' WHERE # Test Plan and Test Ouput='T_05';
-UPDATE user set ='' WHERE # Test Plan and Test Ouput='';
-UPDATE user set ='' WHERE # Test Plan and Test Ouput='';
-UPDATE user set ='Entered Password is wrong' WHERE # Test Plan and Test Ouput='Password';
+| # Test Plan and Test Ouput |                           |                                                                |              |                           |                           |                    |   |
+|----------------------------|---------------------------|----------------------------------------------------------------|--------------|---------------------------|---------------------------|--------------------|---|
+| *Test ID*                | *HLT ID*                | *Description*                                                | *Exp IN*   | *Exp OUT*               | *Actual Out*            | *PASS/FAIL*      |   |
+| -------------              | -----                     | -------------------------------------------------------------- | ------------ | -------------             | ----------------          | ------------------ |   |
+| T_01                       | H_01                      | Provide required details for year calendar                     | password     | Successfully logined In   | Successfully logined In   | PASS               |   |
+| T_02                       | H_01                      | When wrong password is entered                                 | Password     | Login is unsuccesfull     | Login is unsuccesfull     | PASS               |   |
+| T_03                       | H_02                      | Display the  details of which year require available           | Enter choice | Display list              | Display list              | PASS               |   |
+| T_04                       | H_02                      | Mark the event on the day available                            | enter choice | Your details are recorded | your details are recorded | PASS               |   |
+| T_05                       | H_03                      | Change the year                                                | ID number    | Your required Year        | Your required Year        | PASS               |   |
+|                            |                           |                                                                |              |                           |                           |                    |   |
+|                            |                           |                                                                |              |                           |                           |                    |   |
+| Password                   | Entered Password is wrong | Entered Password is wrong                                      | PASS         |                           |                           |                    |   |
